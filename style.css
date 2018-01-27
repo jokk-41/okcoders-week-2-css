@@ -5,7 +5,7 @@ body {
 	/*Troubleshoot*/
 
 	line-height: 1.5;
-	padding: 4em 1em 4em 1em;
+	padding: 0em 1em 4em 1em;
 	color: #555;
 	/*This is a shortcut to specifying each side of the padding 
 	in the order Top -> Right -> Bottom -> Left*/
@@ -22,6 +22,9 @@ h2 {
 	padding-top: 1em;
 }
 
+h1 {
+	color: #DDD;
+}
 code, pre {
 	background: #eee;
 }
@@ -35,5 +38,17 @@ pre {
 }
 
 a {
-	color:#e81c4f;
+	color: red;
+}
+
+header {
+	background-color: #233;
+	background-image: url("header.jpg");
+	/*This image is only styling the header tag & is as big as the tag*/
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	line-height: 1.2;
+	padding: 2em;
+	text-align: center;
 }
